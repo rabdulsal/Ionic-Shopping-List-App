@@ -13,6 +13,12 @@
       (click)="onNewRecipe()">
         <ion-icon name="add"></ion-icon>
       </button>
+      <button
+      ion-button
+      icon-only
+      (click)="onShowOptions($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
     </ion-buttons>
     <ion-title>Your Recipes ({{ allRecipes.length }})</ion-title>
   </ion-navbar>

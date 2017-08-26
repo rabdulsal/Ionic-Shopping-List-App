@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 import { ViewController } from "ionic-angular";
 
 @Component({
-  selector: 'page-shopping-list-options',
+  selector: 'page-database-options',
   template: `
     <ion-grid text-center>
       <ion-row>
@@ -28,7 +28,7 @@ import { ViewController } from "ionic-angular";
   `
 })
 
-export class ShoppingListOptionsPage {
+export class DatabaseOptionsPage {
   constructor(private viewCtrl: ViewController) {}
 
   onAction(action: string) {
